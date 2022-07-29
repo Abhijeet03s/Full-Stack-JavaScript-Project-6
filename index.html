@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project-6</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Allerta"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: block;
+      }
+
+      /*--Navbar Section-- */
+
+      #navbarMonstera {
+        display: flex;
+        align-items: center;
+        gap: 300px;
+        justify-content: center;
+        padding-top: 40px;
+      }
+      #navFirst {
+        width: 120px;
+        padding: 20px 50px;
+      }
+      #navFirst img {
+        height: 34px;
+        object-fit: cover;
+      }
+
+      #navFirst img {
+        height: 34px;
+        object-fit: cover;
+      }
+
+      #navMid {
+        display: flex;
+        gap: 60px;
+        align-items: center;
+      }
+      #navMid div:nth-child(1) {
+        border-bottom: 2px solid black;
+      }
+
+      #navEnd div img {
+        height: 18px;
+        object-fit: cover;
+      }
+      #navEnd {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+      }
+      #navEnd div img {
+        height: 18px;
+        object-fit: cover;
+      }
+
+      /* Hero Section */
+
+      #midWhole {
+        display: flex;
+        gap: 266px;
+        align-items: center;
+      }
+      .fa-solid {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+      }
+      #midWholePart1 {
+        margin-left: 7rem;
+      }
+      #midWholePart11 {
+        margin-top: 90px;
+      }
+      #midWholePart121 div h1 {
+        margin-top: 60px;
+        background-color: #386641;
+        color: white;
+        font-weight: lighter;
+        font-size: 25px;
+        width: 200px;
+        border-radius: 28px;
+        padding: 6px 24px;
+        margin-bottom: 100px;
+      }
+      #monstera {
+        font-size: 70px;
+      }
+
+      #midWholePart13 {
+        display: flex;
+      }
+      #midWholePart13 div img {
+        height: 45px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+      #imgMain {
+        height: 600px;
+        object-fit: cover;
+      }
+      .text {
+        font-size: 8px;
+      }
+      .midWholePart13Parts {
+        display: flex;
+      }
+      #midWholePart13 div img {
+        height: 48px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+      #midWholePart122 img {
+        position: absolute;
+        width: 1rem;
+        left: 272px;
+        top: 483px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+
+    <nav id="navbarMonstera">
+      <div id="navFirst">
+        <img src="./photos/Logo.svg" />
+      </div>
+
+      <div id="navMid">
+        <div>
+          <h4>Home</h4>
+        </div>
+        <div><h4>Collection</h4></div>
+        <div>
+          <h4>Shop</h4>
+        </div>
+        <div>
+          <h4>About</h4>
+        </div>
+        <div>
+          <h4>Contact</h4>
+        </div>
+      </div>
+
+      <div id="navEnd">
+        <div>
+          <img src="/photos/cart.svg" />
+        </div>
+        <div>
+          <img src="./photos/user.svg" />
+        </div>
+        <div>
+          <img src="./photos/search.svg" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div id="midWhole">
+      <div id="midWholePart1">
+        <div id="midWholePart11">
+          <div>
+            <ul>
+              <li><h1 id="monstera">MONSTERA</h1></li>
+              <li></li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Debitis ab veniam adipisci corrupti unde, nostrum saepe.
+              </li>
+              <li>
+                Quibusdam perferendis, dolore est odit iste cum quas quidem
+                officiis laudantium hic maxime recusandae?
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="midWholePart12">
+          <div id="midWholePart121">
+            <div>
+              <h1>DISCOVER <i class="fa-solid fa-angle-right"></i></h1>
+            </div>
+            <div id="midWholePart122">
+              <img src="./photos/greaterThan.svg" />
+            </div>
+          </div>
+        </div>
+        <div id="midWholePart13">
+          <div class="midWholePart13Parts">
+            <div>
+              <img id="feeding" src="./photos/water plant.png" />
+            </div>
+            <div>
+              <h4>Feeding</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consecteturadipisicing elit
+              </p>
+            </div>
+          </div>
+          <div class="midWholePart13Parts">
+            <div>
+              <img id="light" src="./photos/light.svg" alt="" />
+            </div>
+            <div>
+              <h4>Light</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+          <div class="midWholePart13Parts">
+            <div>
+              <img id="care" src="./photos/plough.svg" />
+            </div>
+            <div>
+              <h4>Care</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img id="imgMain" src="./photos/6_folwer_cut.png" />
+      </div>
+    </div>
+  </body>
+</html>
