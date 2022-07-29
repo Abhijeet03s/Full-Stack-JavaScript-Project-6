@@ -10,7 +10,7 @@
 
 # Live Project 6 : Plant Home Page
 
-## Project 6: [Live Link]()
+## Project 6: [Live Link](https://live-project-6-fs-js.netlify.app/)
 
 -   Skills Gained in this project.
     - Learned to declared Internal stylesheets.
